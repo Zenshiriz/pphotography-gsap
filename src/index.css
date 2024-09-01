@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .name-title {
+      @apply text-xl font-bold uppercase text-white md:text-2xl ;
+    }
+  }
+
+  .goblin-one-regular {
+    font-family: "Goblin One", serif;
+  }
+  
+  footer{
+    min-height: 0%;
+  }
